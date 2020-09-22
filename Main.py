@@ -43,10 +43,10 @@ testMatrix2 = np.array([
     [0, a, 0]
 ])
 # Assign the matrix to a Coordinator for both algorithms
-coord = Coordinator(initMatrix)
+coord = Coordinator(testMatrix2)
 
 # Run the power iteration algorithm and print vector
-coord.runPowerIteration()
+coord.runAlgorithms()
 
 # test multiplication
 testMatrix3 = np.array([
